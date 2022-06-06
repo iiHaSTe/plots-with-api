@@ -8,11 +8,11 @@ see the title
 $ pip install -r requirements.txt
 ```
 2. Run app with
-  1. using api (for api only)
+  * using api (for api only)
   ```bash
   $ uvicorn src.app:app --reload
   ```
-  2. Or with `matplotlib`
+  * Or with `matplotlib`
   ```bash
   $ cd src/
   $ python3 plot.py || python plot.py
