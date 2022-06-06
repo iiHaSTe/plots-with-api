@@ -8,7 +8,6 @@ app = FastAPI()
 
 
 
-con = sqlite3.connect("./data/users.sqlite")
 
 
 
